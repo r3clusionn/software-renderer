@@ -1,0 +1,24 @@
+[package]
+name = "software-renderer"
+version = "0.1.0"
+edition = "2021"
+description = "A CPU rasterizer: homogeneous clipping, a fill-rule-exact edge-function rasterizer on parallel tiles, perspective-correct mipmapped textures, Blinn-Phong lighting and shadow maps."
+license = "MIT"
+
+[lib]
+name = "swr"
+
+[[bin]]
+name = "swr"
+path = "src/main.rs"
+
+[dependencies]
+clap = { version = "4", features = ["derive"] }
+lumen = { git = "https://github.com/r3clusionn/image-library", rev = "f8873bb" }
+minifb = "0.29"
+workpool = { git = "https://github.com/r3clusionn/thread-pool-library", rev = "8a03458" }
+
+[profile.release]
+lto = true
+codegen-units = 1
+debug = false

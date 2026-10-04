@@ -356,7 +356,7 @@ checksum = "f9f8bd3e56ce4dfc153cf470fffbfa98c7620958b312ca5c3a4b8d5181fd13c6"
 [[package]]
 name = "lumen"
 version = "0.1.0"
-source = "git+https://github.com/r3clusionn/image-library?rev=f8873bb#f8873bb804f660c0d0d538b1f5b6a6e767a8840c"
+source = "git+https://github.com/r3clusionn/image-library?rev=ab11f5a#ab11f5a7276ec65695a96103ab2c736bdecda5aa"
 
 [[package]]
 name = "memchr"
@@ -848,7 +848,7 @@ dependencies = [
 [[package]]
 name = "workpool"
 version = "0.1.0"
-source = "git+https://github.com/r3clusionn/thread-pool-library?rev=8a03458#8a034586e206c4f87bd289d765f15de18b1e343e"
+source = "git+https://github.com/r3clusionn/thread-pool-library?rev=35ee663#35ee663e9fe77355a360849e7c8d35a90af87805"
 
 [[package]]
 name = "x11-dl"

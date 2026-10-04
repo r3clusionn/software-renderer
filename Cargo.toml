@@ -14,9 +14,9 @@ path = "src/main.rs"
 
 [dependencies]
 clap = { version = "4", features = ["derive"] }
-lumen = { git = "https://github.com/r3clusionn/image-library", rev = "f8873bb" }
+lumen = { git = "https://github.com/r3clusionn/image-library", rev = "ab11f5a" }
 minifb = "0.29"
-workpool = { git = "https://github.com/r3clusionn/thread-pool-library", rev = "8a03458" }
+workpool = { git = "https://github.com/r3clusionn/thread-pool-library", rev = "35ee663" }
 
 [profile.release]
 lto = true
